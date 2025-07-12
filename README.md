@@ -175,3 +175,31 @@ Key Points:
 
 - **Strengths:** [Very supportive](https://developer.tibber.com/respect) to enable reuse of data across plattforms. Many home automation integrations exist.
 - **Improvement Areas:** none
+
+### EU Data Act Implementation: Dreame Technology
+
+- **Website:** [Dreame Technology Webpage](https://www.dreametech.com/) [Dreame Wikipedia](https://en.wikipedia.org/wiki/Dreame_Technology)
+- **API Docs:** [mi.com API Docs](https://dev.mi.com/docs/)
+- **Industry:** home applicances
+- **IoT Products:** household cleaning and personal care appliances
+- **Date:** 2025-07-12
+
+Implementation Status:
+
+- **Provides clear guidance on data usage:** tbd
+- **Timely Data Access:** tbd
+- **Readily Available Data Mechanisms:** Self-Service access without delay
+- **Data Access Types:** GrafphQL API Endpoint with rate limit of 100 requests in 5 minutes per IP address
+- **Data Format & Structure:** Standard JSON format without documentation
+- **Metadata Availability:** tbd
+- **Access Permissions:** Granular control to the user of the device
+- **User Information & Transparency:** Only generic API documentation in chinese available without clear Dreame references
+- **Security & Confidentiality:** Username Password
+- **Update & Lifecycle Communication:** tbd
+- **Support for Data Portability:** Data reuse is possible
+- **Dispute Handling:** tbd
+
+Key Points:
+
+- **Strengths:** Home Assistant Project [Tasshack/dreame-vacuum](https://github.com/Tasshack/dreame-vacuum/tree/master) shows that relevant data and even commands can be send to the device.
+- **Improvement Areas:** No english API documentation available, no Dreame API documentation available, a lot of reverse engineering required to actually understand the API usage.
